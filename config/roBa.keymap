@@ -22,14 +22,9 @@
             key-positions = <12 13>;
         };
 
-        double_quotation {
+        single_quotes {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
         };
     };
 
@@ -59,7 +54,7 @@
         DEFAULT {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                 &kp T                                                     &kp Y            &kp U  &lt 5 I  &kp O      &kp P
-&kp A             &kp S         &kp D         &kp F                 &kp G                   &mkp MCLK          &kp PLUS       &kp H            &kp J  &kp K    &kp L      &lt_to_layer_0 2 DOUBLE_QUOTES
+&kp A             &kp S         &kp D         &kp F                 &kp G                   &mkp MCLK          &kp EQUAL      &kp H            &kp J  &kp K    &kp L      &lt_to_layer_0 2 DOUBLE_QUOTES
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B                   &kp SEMICOLON      &kp MINUS      &kp B            &kp N  &kp M    &kp COMMA  &kp DOT
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 ESC  &lt_to_layer_0 1 SPACE  &mkp MB1           &kp BACKSPACE  &mt LCTRL ENTER                             &kp SLASH
             >;
@@ -91,10 +86,10 @@
 
         FUNCTION {
             bindings = <
-&kp INT2             &trans  &trans  &trans  &bt BT_SEL 0                                     &kp F1           &kp F2  &kp F3  &kp F4  &kp F5
-&kp INTERNATIONAL_5  &trans  &trans  &trans  &bt BT_SEL 1  &bt BT_CLR      &kp F13            &kp F6           &kp F7  &kp F8  &kp F9  &kp F10
-&trans               &trans  &trans  &trans  &bt BT_SEL 2  &trans          &trans             &trans           &trans  &trans  &trans  &kp F11
-&trans               &trans  &trans  &trans  &trans        &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                          &kp F12
+&kp LANG_HIRAGANA        &trans  &trans  &trans  &bt BT_SEL 0                                     &kp F1           &kp F2  &kp F3  &kp F4  &kp F5
+&kp LANG_ZENKAKUHANKAKU  &trans  &trans  &trans  &bt BT_SEL 1  &bt BT_CLR      &kp F13            &kp F6           &kp F7  &kp F8  &kp F9  &kp F10
+&trans                   &trans  &trans  &trans  &bt BT_SEL 2  &trans          &trans             &trans           &trans  &trans  &trans  &kp F11
+&trans                   &trans  &trans  &trans  &trans        &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                          &kp F12
             >;
         };
 
