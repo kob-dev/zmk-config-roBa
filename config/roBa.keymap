@@ -69,10 +69,10 @@
 
         NUM {
             bindings = <
-&kp MINUS             &kp PLUS      &kp KP_NUMBER_3  &kp KP_NUMBER_8  &kp KP_NUMBER_9                                               &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH             &kp ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT EQUAL  &kp PERIOD    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0              &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                &trans        &trans           &trans           &trans           &trans                       &trans          &trans                                                                     &kp PIPE
+&trans  &trans        &kp KP_NUMBER_3  &kp KP_NUMBER_8  &kp KP_NUMBER_9                                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp PIPE    &kp AMPERSAND
+&trans  &kp ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans               &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT           &kp DOLLAR  &kp HASH
+&trans  &trans        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0      &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET        &kp TILDE   &kp PERCENT
+&trans  &trans        &trans           &trans           &trans           &trans               &trans         &trans                                                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
@@ -80,10 +80,10 @@
 
         ARROW {
             bindings = <
-&trans          &trans        &trans        &trans  &trans                               &trans       &trans          &kp UP_ARROW     &trans  &trans
-&trans          &trans        &trans        &trans  &trans  &trans      &kp LC(LS(TAB))  &kp HOME     &kp LEFT        &kp RIGHT_ARROW  &trans  &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans  &trans  &trans      &kp LC(TAB)      &kp END      &kp DOWN_ARROW  &trans           &trans  &trans
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &trans  &trans  &trans      &kp LA(LS(TAB))  &kp LA(TAB)                                           &trans
+&trans          &trans        &trans        &trans  &trans                               &trans       &kp LC(C)       &kp UP_ARROW     &kp LC(V)  &trans
+&trans          &trans        &trans        &trans  &trans  &trans      &kp LC(LS(TAB))  &kp HOME     &kp LEFT        &kp RIGHT_ARROW  &trans     &trans
+&kp LEFT_SHIFT  &trans        &trans        &trans  &trans  &trans      &kp LC(TAB)      &kp END      &kp DOWN_ARROW  &trans           &trans     &trans
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &trans  &trans  &trans      &kp LA(LS(TAB))  &kp LA(TAB)                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
