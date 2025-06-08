@@ -50,8 +50,8 @@
             bindings = <
 &kp Q           &kp W         &kp E         &kp R      &kp T                                        &kp Y            &kp U  &kp I  &kp O      &kp P
 &kp A           &kp S         &kp D         &kp F      &kp G      &mkp MCLK          &kp EQUAL      &kp H            &kp J  &kp K  &lt 5 L    &lt 2 DOUBLE_QUOTES
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C      &kp V      &kp SEMICOLON      &kp MINUS      &kp B            &kp N  &kp M  &kp COMMA  &kp DOT
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &kp SPACE  &kp DELETE         &kp BACKSPACE  &mt LCTRL ENTER                           &kp SLASH
+&kp LEFT_SHIFT  &lt 1 Z       &kp X         &kp C      &kp V      &kp SEMICOLON      &kp MINUS      &kp B            &kp N  &kp M  &kp COMMA  &kp DOT
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &kp SPACE  &sl 1              &kp BACKSPACE  &mt LCTRL ENTER                           &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -59,10 +59,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9                                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp PIPE    &kp AMPERSAND
-&trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans               &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT           &kp DOLLAR  &kp HASH
-&trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0      &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET        &kp TILDE   &kp PERCENT
-&trans  &trans  &kp KP_NUMBER_0  &trans           &trans           &trans               &kp BACKSPACE  &kp RETURN                                                                &kp ASTERISK
+&trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9                                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp PIPE    &kp AMPERSAND
+&trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans               &kp GRAVE             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT           &kp DOLLAR  &kp HASH
+&trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0      &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET        &kp TILDE   &kp PERCENT
+&trans  &trans  &kp KP_NUMBER_0  &trans           &trans           &kp BACKSPACE        &kp BACKSPACE         &kp RETURN                                                                &kp ASTERISK
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
