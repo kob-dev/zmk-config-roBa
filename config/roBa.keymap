@@ -69,7 +69,7 @@
 &kp ESCAPE  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE  &kp LANG2             &kp TAB    &kp BACKSPACE                             &kp SLASH
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         ARROW_SYMBOL {
