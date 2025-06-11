@@ -53,10 +53,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W         &kp E         &kp R           &kp T                                       &kp Y          &kp U    &kp I  &kp O      &kp P
-&kp A       &kp S         &kp D         &kp F           &kp G      &kp ESCAPE            &kp MINUS  &kp H          &lt 2 J  &kp K  &lt 5 L    &lt 1 RETURN
-&kp LCTRL   &kp Z         &kp X         &kp C           &kp V      &kp SINGLE_QUOTE      &kp EQUAL  &kp B          &kp N    &kp M  &kp COMMA  &kp DOT
-&kp ESCAPE  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE  &kp LANG2             &kp TAB    &kp BACKSPACE                             &kp SLASH
+&kp Q           &kp W         &kp E         &kp R           &kp T                                       &kp Y          &kp U    &kp I  &kp O      &kp P
+&kp A           &kp S         &kp D         &kp F           &kp G      &kp ESCAPE            &kp MINUS  &kp H          &lt 2 J  &kp K  &lt 5 L    &lt 1 RETURN
+&kp LCTRL       &kp Z         &kp X         &kp C           &kp V      &kp SINGLE_QUOTE      &kp EQUAL  &kp B          &kp N    &kp M  &kp COMMA  &kp DOT
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE  &kp LANG2             &kp TAB    &kp BACKSPACE                             &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -64,10 +64,10 @@
 
         ARROW_SYMBOL {
             bindings = <
-&kp EXCL   &kp AT_SIGN       &kp HASH           &kp DOLLAR            &kp PERCENT                                                  &kp LC(X)            &kp LC(C)       &kp UP_ARROW     &kp LC(V)  &trans
-&kp CARET  &kp AMPERSAND     &kp COLON          &kp BACKSLASH         &kp GRAVE              &trans            &kp LC(LS(TAB))     &kp HOME             &kp LEFT        &kp RIGHT_ARROW  &trans     &trans
-&trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMI          &kp LC(TAB)         &kp END              &kp DOWN_ARROW  &trans           &trans     &trans
-&trans     &trans            &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                              &trans
+&kp EXCL              &kp AT_SIGN            &kp HASH           &kp CARET       &kp AMPERSAND                                          &kp LC(X)            &kp LC(C)       &kp UP_ARROW     &kp LC(V)  &trans
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON          &kp BACKSLASH   &kp GRAVE        &trans            &kp LC(LS(TAB))     &kp HOME             &kp LEFT        &kp RIGHT_ARROW  &trans     &trans
+&trans                &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMI          &kp LC(TAB)         &kp END              &kp DOWN_ARROW  &trans           &trans     &trans
+&trans                &trans                 &trans             &trans          &trans           &kp ASTERISK      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -75,10 +75,10 @@
 
         FUNCTION {
             bindings = <
-&kp N1        &kp N2        &kp N3        &kp N4  &kp N5                           &kp F2      &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)
-&kp N6        &kp N7        &kp N8        &kp N9  &kp N0   &bt BT_CLR      &trans  &kp F5      &trans  &kp LG(NUMBER_4)  &kp LG(N5)        &kp LG(NUMBER_6)
-&trans        &trans        &trans        &trans  &kp DOT  &trans          &trans  &kt F7      &trans  &trans            &trans            &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans   &kp LANG1       &trans  &kp DELETE                                              &trans
+&kp N1      &kp N2       &kp N3  &kp N4  &kp N5                           &kp F2      &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)
+&kp N6      &kp N7       &kp N8  &kp N9  &kp N0   &bt BT_CLR      &trans  &kp F5      &trans  &kp LG(NUMBER_4)  &kp LG(N5)        &kp LG(NUMBER_6)
+&kp DOLLAR  &kp PERCENT  &trans  &trans  &kp DOT  &trans          &trans  &kt F7      &trans  &trans            &trans            &trans
+&trans      &trans       &trans  &trans  &trans   &kp LANG1       &trans  &kp DELETE                                              &trans
             >;
         };
 
