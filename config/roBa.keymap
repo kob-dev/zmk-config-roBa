@@ -26,6 +26,11 @@
             bindings = <&kp SLASH>;
             key-positions = <18 19>;
         };
+
+        single_quotes {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {
@@ -53,10 +58,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R                 &kp T                                       &kp Y          &kp U    &kp I  &kp O      &kp P
-&kp A           &kp S         &kp D         &kp F                 &kp G      &kp ESCAPE            &kp MINUS  &kp H          &lt 2 J  &kp K  &lt 5 L    &lt 1 RETURN
-&kp LCTRL       &kp Z         &kp X         &kp C                 &kp V      &kp SINGLE_QUOTE      &kp EQUAL  &kp B          &kp N    &kp M  &kp COMMA  &kp DOT
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG1  &kp SPACE  &kp LANG2             &kp TAB    &kp BACKSPACE                             &kp SLASH
+&kp Q           &kp W         &kp E         &kp R                 &kp T                                        &kp Y          &kp U    &kp I  &kp O      &kp P
+&kp A           &kp S         &kp D         &kp F                 &kp G      &kp ESCAPE             &kp MINUS  &kp H          &lt 2 J  &kp K  &lt 5 L    &lt 1 RETURN
+&kp LCTRL       &kp Z         &kp X         &kp C                 &kp V      &kp DOUBLE_QUOTES      &kp EQUAL  &kp B          &kp N    &kp M  &kp COMMA  &kp DOT
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG1  &kp SPACE  &kp LANG2              &kp TAB    &kp BACKSPACE                             &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
