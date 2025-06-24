@@ -69,10 +69,10 @@
 
         ARROW_SYMBOL {
             bindings = <
-&kp EXCL   &kp AT_SIGN           &kp HASH               &kp CARET      &kp AMPERSAND                                        &kp LC(X)            &kp LC(C)       &kp UP_ARROW     &kp LC(V)  &trans
-&kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp GRAVE      &trans            &kp LC(LS(TAB))     &kp HOME             &kp LEFT        &kp RIGHT_ARROW  &trans     &trans
-&trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp TILDE      &kp SEMI          &kp LC(TAB)         &kp END              &kp DOWN_ARROW  &trans           &trans     &trans
-&trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans         &kp ASTERISK      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                              &trans
+&kp EXCL   &kp AT_SIGN           &kp HASH               &kp CARET       &kp AMPERSAND                                       &kp LC(X)            &kp LC(C)       &kp UP_ARROW     &kp LC(V)  &trans
+&kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH   &kp GRAVE        &trans         &kp LC(LS(TAB))     &kp HOME             &kp LEFT        &kp RIGHT_ARROW  &trans     &trans
+&trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMI       &kp LC(TAB)         &kp END              &kp DOWN_ARROW  &trans           &trans     &trans
+&trans     &trans                &trans                 &kp PIPE        &trans           &kp TILDE      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -80,10 +80,10 @@
 
         FUNCTION {
             bindings = <
-&kp N1      &kp N2       &kp N3  &kp N4  &kp N5                           &trans  &trans  &kp F2  &kp LG(NUMBER_1)  &kp LG(NUMBER_4)
-&kp N6      &kp N7       &kp N8  &kp N9  &kp N0   &bt BT_CLR      &trans  &trans  &trans  &kp F6  &kp LG(NUMBER_2)  &kp LG(N5)
-&kp DOLLAR  &kp PERCENT  &trans  &trans  &kp DOT  &kp SLASH       &trans  &trans  &trans  &kp F7  &kp LG(NUMBER_3)  &trans
-&trans      &trans       &trans  &trans  &trans   &trans          &trans  &trans                                    &to 3
+&kp N1      &kp N2       &kp N3     &kp N4  &kp N5                           &trans  &trans  &kp F2  &kp LG(NUMBER_1)  &kp LG(NUMBER_4)
+&kp N6      &kp N7       &kp N8     &kp N9  &kp N0   &bt BT_CLR      &trans  &trans  &trans  &kp F6  &kp LG(NUMBER_2)  &kp LG(N5)
+&kp DOLLAR  &kp PERCENT  &kp ASTRK  &trans  &kp DOT  &kp SLASH       &trans  &trans  &trans  &kp F7  &kp LG(NUMBER_3)  &trans
+&trans      &trans       &trans     &trans  &trans   &trans          &trans  &trans                                    &to 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
